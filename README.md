@@ -29,6 +29,7 @@ sample = pd.DataFrame({
     "Garage": [2]
 })
 
+# Printing
 predicted_price = model.predict(sample)
 print(f"\nPredicted Price for Sample House: ${predicted_price[0]:,.2f}")
 ```
