@@ -10,11 +10,13 @@
   <a href="./wyatt.ipynb" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/wyatt.ipynb-wyatt?style=for-the-badge&logo=google%20colab&logoColor=%2300b7ff&color=%23ffffff"></a>
 </div>
 
-<!-- Disclaimer -->
+<!-- Divider -->
+---
+
+## Implementation
+
 >[!TIP]
 >Wyatt AI has been developed to use general features instead of overly-specific ones. If a certain feature is missing, input a reasonable estimate.
-
-<!-- Code -->
 
  ```py
 # Instructions
@@ -33,3 +35,26 @@ sample = pd.DataFrame({
 predicted_price = model.predict(sample)
 print(f"\nPredicted Price for Sample House: ${predicted_price[0]:,.2f}")
 ```
+
+<!-- Divider -->
+---
+
+## Showcase
+
+>[!NOTE]
+>Each house can be found in the United States. These houses have been **randomly** picked from [Zillow](https://www.zillow.com/).
+
+# CHART WIP
+
+| State        | Wyatt Estimate | Actual          | MSE |
+|:------------:|:--------------:|:---------------:|:---:|
+| Pennsylvania | San Francisco  | $900,000        | x   |
+| Spain        | Barcelona      | warm_beige      | x                        |
+| Italy        | Venice         | blueprint       | x                        |
+| Japan        | Tokyo          | japanese_ink    | x                        |
+| India        | Mumbai         | contrast_zones  | x                        |
+| Morocco      | Marrakech      | terracotta      | x                        |
+| Singapore    | Singapore      | neon_cyberpunk  | x                        |
+| Australia    | Melbourne      | forest          | x                        |
+| UAE          | Dubai          | midnight_blue   | x                        |
+| USA          | Seattle        | emerald         | x                        |
