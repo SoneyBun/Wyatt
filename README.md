@@ -46,10 +46,10 @@ print(f"\nPredicted Price for Sample House: ${predicted_price[0]:,.2f}")
 
 # CHART WIP
 
-| State        | Wyatt Estimate | Actual          | MSE |
-|:------------:|:--------------:|:---------------:|:---:|
-| Pennsylvania | San Francisco  | $900,000        | x   |
-| Spain        | Barcelona      | warm_beige      | x                        |
+| State        | Square Feet    | Bedrooms        | Bathrooms | Year Built | Lot Size | Garage | Wyatt Estimate | Actual   |
+|:------------:|:--------------:|:---------------:|:---------:|:----------:|:--------:|:------:|:--------------:|:--------:|
+| Pennsylvania | 3,242          | 3               | 3         | 2000       | 11.18    | 2      | $1,030,940.24  | $875,000 |
+| Ohio         | 5,532          | 2               | 1         | 1      |
 | Italy        | Venice         | blueprint       | x                        |
 | Japan        | Tokyo          | japanese_ink    | x                        |
 | India        | Mumbai         | contrast_zones  | x                        |
