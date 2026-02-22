@@ -35,26 +35,3 @@ sample = pd.DataFrame({
 predicted_price = model.predict(sample)
 print(f"\nPredicted Price for Sample House: ${predicted_price[0]:,.2f}")
 ```
-
-<!-- Divider -->
----
-
-## Showcase
-
->[!NOTE]
->Each house can be found in the United States. These houses have been **randomly** picked from [Zillow](https://www.zillow.com/).
-
-# CHART WIP
-
-| State        | Square Feet    | Bedrooms        | Bathrooms | Year Built | Lot Size | Garage | Wyatt Estimate | Actual   |
-|:------------:|:--------------:|:---------------:|:---------:|:----------:|:--------:|:------:|:--------------:|:--------:|
-| Pennsylvania | 3,242          | 3               | 3         | 2000       | 11.18    | 2      | $1,030,940.24  | $875,000 |
-| Ohio         | 5,532          | 2               | 1         | 1      |
-| Italy        | Venice         | blueprint       | x                        |
-| Japan        | Tokyo          | japanese_ink    | x                        |
-| India        | Mumbai         | contrast_zones  | x                        |
-| Morocco      | Marrakech      | terracotta      | x                        |
-| Singapore    | Singapore      | neon_cyberpunk  | x                        |
-| Australia    | Melbourne      | forest          | x                        |
-| UAE          | Dubai          | midnight_blue   | x                        |
-| USA          | Seattle        | emerald         | x                        |
