@@ -42,3 +42,7 @@ sample = pd.DataFrame({
 predicted_price = model.predict(sample)
 print(f"\nPredicted Price for Sample House: ${predicted_price[0]:,.2f}")
 ```
+<!-- Divider -->
+---
+
+<div align="center">Independence DSAI 2526</div>
